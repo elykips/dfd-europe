@@ -9,12 +9,15 @@ import { InventoryComponent } from './inventory/inventory.component';
 import { EnquiriesComponent } from './enquiries/enquiries.component';
 import { ProfilesComponent } from './profiles/profiles.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
     imports: [
     CommonModule,
         DealerPagesRoutingModule,
         NgbModule,
+        FormsModule,
+        ReactiveFormsModule,   
     ],
     declarations: [
         DealerLayoutPageComponent,

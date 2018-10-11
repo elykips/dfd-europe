@@ -11,7 +11,7 @@
 
 .profile-menu{
     position: relative;
-    top: -30px;
+    top: -20px;
     padding-bottom: 0;
     padding-left: 15px;
     display: -webkit-box;
@@ -29,4 +29,10 @@ section{
 
 #bg-image{
     background-position: 50% center;
+}
+
+
+.btn[class*="btn-"] {
+    margin-bottom: 3rem;
+    margin-top: -4rem;
 }
