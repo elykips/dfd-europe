@@ -2,9 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { GuestLayoutPageComponent } from './guest-layout-page.component';
-import { SigninComponent } from '../../auth/signin/signin.component';
-import { SignupComponent } from '../../auth/signup/signup.component';
+import { AvailableCarsComponent } from './available-cars/available-cars.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SignupComponent } from '../../auth/signup/signup.component';
+import { SigninComponent } from '../../auth/signin/signin.component';
+import { CarDetailsComponent } from './car-details/car-details.component';
+
 
 
 
@@ -35,6 +38,20 @@ const routes: Routes = [
      component: SignupComponent,
     data: {
       title: 'Sign In'
+    },    
+  },
+  {
+    path: 'cars',
+     component: AvailableCarsComponent,
+    data: {
+      title: 'Sign In'
+    },    
+  },
+  {
+    path: 'cars/:vin',
+     component: CarDetailsComponent,
+    data: {
+      title: 'Car Details'
     },    
   },
 ];

@@ -32,7 +32,10 @@
         "assets/js/granim.min.js",
         "assets/js/scroll.js",
         "assets/js/main.js",
-        "../node_modules/ng2-toastr/ng2-toastr.js"
+        "../node_modules/ng2-toastr/ng2-toastr.js",
+        "assets/js/vertical-timeline.js",
+        "assets/js/inbox.js"
+
 
       ],
       "environmentSource": "environments/environment.ts",

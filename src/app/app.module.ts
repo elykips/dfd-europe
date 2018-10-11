@@ -11,7 +11,7 @@ import { GuestLayoutComponent } from "./layouts/guest/guest-layout.component";
 import { DealerLayoutComponent } from './layouts/dealer/dealer-layout.component';
 
 // import services
-// import { AuthService } from './services/auth/auth.service';
+import { AuthService } from './services/auth/auth.service';
 import { FormBuilder, FormsModule } from '@angular/forms';
 import { ToastrService } from './services/toastr/toastr.service';
 import { ToastsManager, ToastOptions, ToastModule } from 'ng2-toastr';
@@ -33,7 +33,7 @@ BrowserAnimationsModule,
         NgbModule.forRoot()
     ],
     providers: [
-        // AuthService,
+        AuthService,
         FormBuilder,
         ToastrService,
         ToastsManager,
